@@ -5,4 +5,4 @@ metadata:
   team: devex
   lifecycle: production
 spec:
-  type: service
+  type: library
