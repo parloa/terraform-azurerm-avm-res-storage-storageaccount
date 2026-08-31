@@ -9,7 +9,7 @@ inputs:
 runs:
   using: composite
   steps:
-    - uses: hashicorp/setup-terraform@v2
+    - uses: hashicorp/setup-terraform@633666f66e0061ca3b725c73b2ec20cd13a8fdd1 # v2
       with:
         terraform_version: ">=1.5.0"
 
@@ -21,7 +21,7 @@ runs:
       run: terraform validate
       shell: bash
 
-    - uses: terraform-linters/setup-tflint@v3
+    - uses: terraform-linters/setup-tflint@a5a1af8c6551fb10c53f1cd4ba62359f1973746f # v3
       name: Setup TFLint
       with:
         tflint_version: v0.48.0
