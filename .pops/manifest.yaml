@@ -2,7 +2,7 @@ apiVersion: platform.parloa.com/v1
 kind: Component
 metadata:
   name: terraform-azurerm-avm-res-storage-storageaccount
-  team: devex
+  team: infrastructure-platform
   lifecycle: production
 spec:
   type: library
