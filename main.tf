@@ -205,6 +205,7 @@ resource "azurerm_storage_account" "this" {
   }
 
   lifecycle {
+    prevent_destroy = true
     ignore_changes = [
       customer_managed_key, queue_properties, static_website
     ]

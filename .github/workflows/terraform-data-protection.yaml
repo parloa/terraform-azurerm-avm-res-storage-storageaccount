@@ -1,0 +1,13 @@
+name: Terraform data protection
+
+on:
+  pull_request:
+  merge_group:
+    types: [checks_requested]
+
+permissions:
+  contents: read
+
+jobs:
+  prevent-destroy:
+    uses: parloa/workflows/.github/workflows/terraform-prevent-destroy.yaml@15c64f49438eaa8516cdadaa2f2ab014a37c0e3d
