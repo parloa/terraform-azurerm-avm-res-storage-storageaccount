@@ -1,0 +1,21 @@
+.github/workflows/terraform-data-protection.yaml
+  s_ce5537c8b3d699::t_89f1a41b022b53 1-13
+main.tf
+  s_ce5537c8b3d699::t_4df42932d4742d 208
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "731dfec799270db1b14e9daad84c9f5d3aabf761",
+  "prompts": {},
+  "sessions": {
+    "s_ce5537c8b3d699": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1832d-4e62-7c32-9d93-cf72bef0b6c5",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "Justin Abrahms <272808854+justin-abrahms-parloa@users.noreply.github.com>"
+    }
+  }
+}
